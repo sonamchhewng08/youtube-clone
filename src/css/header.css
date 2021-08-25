@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header_logo{
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+.header_right,.header_left,.header_middle{
+    display: flex;
+    align-items: center;
+}
+.header_middle{
+    width: 40%;
+    border: 1px solid black;
+}
+.header_middle>input{
+    outline: none;
+    flex: 1;
+    border: none;
+}
+.header_button{
+    width: 50px !important;
+    background: #fafafa;
+    border-left: 1px solid lightgray;
+}
+.header_icon{
+    margin-right: 5px;
+}

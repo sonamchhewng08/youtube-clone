@@ -1,0 +1,18 @@
+.search{
+    flex: 0.8;
+    padding: 15px;
+}
+.search_filter{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: .5px solid gray;
+}
+.search_filter>p{
+    margin-left: 10px;
+}
+.videoRow{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}

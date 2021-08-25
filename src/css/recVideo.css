@@ -1,0 +1,11 @@
+.recVideo{
+    flex: 0.8;
+}
+.recVideo>h2{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.recVideo_video{
+    display: flex;
+    flex-wrap: wrap;
+}

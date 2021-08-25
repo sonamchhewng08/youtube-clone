@@ -1,0 +1,21 @@
+.channel{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.channel_image{
+    flex: .4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.channel_image_logo{
+    height: 100px !important;
+    width: 100px !important;
+    margin: 20px 60px;
+}
+.channel_text{
+    flex: .6;
+    
+}
